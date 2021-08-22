@@ -10,7 +10,7 @@ pyseoanalyzer
 glitch_this
 PyGithub
 pytesseract
-youtube-dl
+youtube_dl
 telethon
 wget
 numpy
@@ -42,7 +42,7 @@ python-barcode
 python-dotenv
 pytz
 qrcode
-
+youtubesearchpython
 regex
 requests
 search-engine-parser>=0.4.2
