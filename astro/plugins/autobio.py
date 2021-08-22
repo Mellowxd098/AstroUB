@@ -19,7 +19,7 @@ async def _(event):
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        bio = f"📅 {DMY} |THIS IS MY🙂 BIO| ⌚️ {HM}"
+        bio = f"{DMY} 📆|THIS IS MY🙂BIO✨AstroUB🌌|⌚️ {HM}"
         logger.info(bio)
         try:
             await borg(
