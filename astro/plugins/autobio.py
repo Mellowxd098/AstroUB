@@ -33,7 +33,7 @@ async def _(event):
         # else:
         # logger.info(r.stringify())
         await borg.send_message(
-            Var.PRIVATE_GROUP_ID, "#Auto_Bio\nSuccessfully enabled auto-bio."
+            Config.PRIVATE_GROUP_ID, "#Auto_Bio\nSuccessfully enabled auto-bio."
         )
         await asyncio.sleep(DEL_TIME_OUT)
 
