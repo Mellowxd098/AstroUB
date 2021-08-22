@@ -43,6 +43,7 @@ python-dotenv
 pytz
 qrcode
 rextester_py
+regex
 requests
 search-engine-parser>=0.4.2
 selenium
