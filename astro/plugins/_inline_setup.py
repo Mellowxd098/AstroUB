@@ -114,10 +114,10 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 text=f"astro - Telegram Userbot.",
                 buttons=[
                     [
-                        Button.url("Repository ✨", "https://github.com/PsychoBots/Astro-UB"),
+                        Button.url("Repository ✨", "https://github.com/AstroUB/AstroUB"),
                         Button.url(
                             "Deploy Astro🌌",
-                            "https://heroku.com/deploy?template=https://github.com/PsychoBots/Astro-UB",
+                            "https://heroku.com/deploy?template=https://github.com/AstroUB/AstroUB",
                         ),
                     ],
                     [Button.url("Support✌️", "https://t.me/Astro_HelpChat")],
@@ -131,11 +131,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     [custom.Button.url("Creator👀", "https://t.me/Alone_loverboy")],
                     [
                         custom.Button.url(
-                            "💾Source Code", "https://github.com/PsychoBots"
+                            "💾Source Code", "https://github.com/AstroUB/AstroUB"
                         ),
                         custom.Button.url(
                             "Deploy🌌",
-                            "https://heroku.com/deploy?template=https://github.com/PsychoBots/Astro-UB",
+                            "https://heroku.com/deploy?template=https://github.com/AstroUB/AstroUB",
                         ),
                     ],
                     [
