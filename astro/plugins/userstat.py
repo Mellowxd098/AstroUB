@@ -9,8 +9,8 @@ from telethon.tl.functions.users import GetFullUserRequest
 swapi = os.environ.get("SPAMWATCH_API_KEY", None)
 
 
-@astro.on(admin_cmd(pattern=f"ustats(?: |$)(.*)"))
-@astro.on(sudo_cmd(pattern=f"ustats(?: |$)(.*)", allow_sudo=True))
+@astro.on(admin_cmd(pattern=f"info(?: |$)(.*)"))
+@astro.on(sudo_cmd(pattern=f"info(?: |$)(.*)", allow_sudo=True))
 async def _(event):
     sender = await event.get_sender()
     me = await event.client.get_me()
