@@ -8,7 +8,7 @@ APP_ID = int(input("Enter API ID here: "))
 API_HASH = input("Enter API HASH here: ")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
-    ast = client.send_message("me", client.session.save())
+    ast = client.send_message("me", f"`{client.session.save()}`")
     ast.reply(
         "The Above is the your `STRING_SESSION` FOR your **AstroUB**\nFor any kind of Help Join ~ @Astro_HelpChat")
     print("")
