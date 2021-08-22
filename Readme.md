@@ -186,7 +186,17 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 Released under [GNU](/LICENSE) by [LoverBoy](https://github.com/LoverboyXD) .
 
 </details>
-
+#### Credits 
+```sh 
+•1. Telebot
+•2. Friday
+•3. Black lightning
+•4. Cat userbot 
+•5. Jarvis 
+•6. Lucifer X 
+•°• TELETHON °•°
+°•° LomaniWebs For Telethon•°•
+```
 # ~*Thanks For Using Astro🌌UserBot❤️* 
 
 ### 𝙅𝙊𝙄𝙉 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 𝙏𝙊 𝘽𝙀 𝙐𝙋𝘿𝘼𝙏𝙀𝘿 😄✓ <br> 𝘼𝙉𝘿 <br> 𝙃𝙀𝙇𝙋𝘾𝙃𝘼𝙏 𝙁𝙊𝙍 𝙃𝙀𝙇𝙋✓
