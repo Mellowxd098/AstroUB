@@ -62,8 +62,8 @@ async def amireallyalive(alive):
     end = datetime.now()
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - StartTime))
-    astro = "__Astro Service__\n"
-    astro += f"**『• Welcome To ƛsτʀ๏ •』**\n   "
+ 
+    astro = f"**『• Welcome To ƛsτʀ๏ •』**\n   "
     astro += f"**{A_TEXT}**\n\n     "
     astro += f"{emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}\n"
     astro += f"{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`\n"
