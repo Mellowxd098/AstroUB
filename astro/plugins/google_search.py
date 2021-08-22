@@ -38,9 +38,9 @@ async def gsearch(q_event):
             break
     await eor(
         q_event,
-        "**Search Query:**\n`" + match + "`\n\n**Results:**\n" + msg,
-        link_preview=False,
-    )
+        "**Search Query:**\n`" + match + "`\n\n**Results:**\n" + msg, link_preview=False)
+        
+    
 
 
 CMD_HELP.update(
