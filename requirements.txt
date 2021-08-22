@@ -1,6 +1,7 @@
 googletrans
-cryptg
-nospamplus
+cryptg 
+emoji==0.6.0
+nospamplus 
 cowpy
 quote
 python-magic
