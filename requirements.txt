@@ -76,3 +76,4 @@ emoji-country-flag
 langdetect
 fontTools
 pdf2docx
+covid
