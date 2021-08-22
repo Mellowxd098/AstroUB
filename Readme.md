@@ -88,7 +88,7 @@ pkg update && pkg upgrage
 pkg install git 
 # git clone
 git clone https://github.com/AstroUB/AstroUB
-cd Astro-UB
+cd AstroUB
 # Create a virtualENV
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
