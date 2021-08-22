@@ -5,9 +5,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 from astro.utils import admin_cmd
 from astro.config import Config
+client = astro
 
-
-@astro.on(admin_cmd("memify ?(.*)"))
+@astro.on(admin_cmd("mmf ?(.*)"))
 async def handler(event):
     if event.fwd_from:
         return
