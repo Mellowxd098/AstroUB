@@ -54,6 +54,11 @@
     "description": "Your App name paste Here also",
     "value": ""
   },
+  "SPAMWATCH_API_KEY": {
+    "description": "Spam watch api_key get From @SpamWatchBot",
+    "value": "",
+    "required": false 
+  },
   "PRIVATE_GROUP_ID": {
     "description": "A Private group Where You will get Your Account updates via your bot...IT MUST START FROM -100",
     "value": ""
