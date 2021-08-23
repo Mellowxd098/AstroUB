@@ -194,7 +194,8 @@ Released under [GNU](/LICENSE) by [LoverBoy](https://github.com/LoverboyXD) .
 •3. Black lightning
 •4. Cat userbot 
 •5. Jarvis 
-•6. Lucifer X 
+•6. jarves
+•7. Lucifer X 
 •°• TELETHON °•°
 °•° LomaniWebs For Telethon•°•
 ```
