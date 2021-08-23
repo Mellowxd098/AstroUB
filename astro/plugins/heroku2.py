@@ -15,7 +15,7 @@ from astro import CMD_HELP, CMD_HNDLR
 
 Heroku = heroku3.from_key(Config.HEROKU_API_KEY)
 heroku_api = "https://api.heroku.com"
-
+HEROKU_APP_NAME = Config.HEROKU_APP_NAME
 
 @astro.on(admin_cmd(pattern=r"(set|get|del) Config (.*)", outgoing=True))
 async def Configiable(Config):
@@ -23,8 +23,8 @@ async def Configiable(Config):
     Manage most of ConfigConfigs setting, set new Config, get current Config,
     or delete Config...
     """
-    if Config.HEROKU_APP_NAME is not None:
-        app = Heroku.app(Config.HEROKU_APP_NAME)
+    if HEROKU_APP_NAME is not None:
+        app = Heroku.app(HEROKU_APP_NAME)
     else:
         return await edit_or_reply(
             Config, "`[HEROKU]:" "\nPlease setup your` **HEROKU_APP_NAME**"
