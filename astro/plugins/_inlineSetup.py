@@ -101,15 +101,17 @@ MESAG = (
 )
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 ALV_TXT = f"""
-**『• Welcome To ƛsτʀ๏ •』**\n   "
-**{ALIVE_TEXT}**\n\n     "
-{emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}\n"
-{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`\n"
-{emoji}** Python Vision** ⊳≫  `{PYTHON}`\n"
-{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`\n"
-{emoji}** SUDO USER** ⊳≫ `{sudo}`\n"
-{emoji}** мy мαsтєя** ⊳≫ {MYUSER}\n\n"
-{emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
+**『• Welcome To ƛsτʀ๏ •』**
+**{ALIVE_TEXT}**
+{emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}
+{emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`
+{emoji}** Python Vision** ⊳≫  `{PYTHON}`
+{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`
+{emoji}** SUDO USER** ⊳≫ `{sudo}`
+{emoji}** мy мαsтєя** ⊳≫ {MYUSER}
+
+
+༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
 """
 
 DEFAULTUSER = str(NAME) if NAME else "ASTRO user✨"
