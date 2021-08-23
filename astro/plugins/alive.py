@@ -50,7 +50,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
  
  
-MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})""
+MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 
 @astro.on(admin_cmd(pattern="alive"))
 @astro.on(sudo_cmd(pattern="alive", allow_sudo=True))
