@@ -71,7 +71,7 @@ async def amireallyalive(alive):
     astro += f"{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`\n"
     astro += f"{emoji}** SUDO USER** ⊳≫ `{sudo}`\n"
 
-    astro += f"{emoji}** мy мαsтєя** ⊳≫ [{MYUSER}](tg://user?id={myid})\n\n"
+    astro += f"{emoji}** мy мαsтєя** ⊳≫ {MYUSER}\n\n"
     astro += f"{emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
     
     await alive.get_chat()
