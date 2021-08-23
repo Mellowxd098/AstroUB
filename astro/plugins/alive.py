@@ -2,7 +2,7 @@ import time
 from datetime import datetime
 from io import BytesIO
 import requests
-from astro.plugins import PYTHON, OWNER_ID
+from astro.plugins import PYTHON, OWNER_ID, ASTRO
 from astro import bot, vision, StartTime
 from astro import CMD_HELP
 from astro.config import Config 
