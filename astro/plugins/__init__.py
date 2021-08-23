@@ -1,6 +1,7 @@
 from astro.config import Config 
 from astro import bot 
 from astro import vision 
+NAME = Config.NAME
 OWNER_ID = Config.OWNER_ID
 BOT_USERNAME = Config.BOT_USERNAME
 OWNER_USERNAME = Config.OWNER_USERNAME
@@ -28,12 +29,12 @@ astrostats = f"{astro}"
 # FOR PING LITTLE SETUP 
 ASTRO = bot.me.first_name
 OWNER_ID = bot.me.id
-NUME = f"[{ASTRO}](tg://user?id={OWNER_ID})"
+NAAME = str(NAME) if NAME else "Astro User✨"
 
 masteri = "HELLO BELOW IS ABOUT MY OWNER\n"
 masteri += f"USERNAME: {OWNER_USERNAME}\n"
 masteri += f"ID: {OWNER_ID}\n"
-masteri += f"NAME: {NAME}\n"
+masteri += f"NAME: {NAAME}\n"
 masteri += "IS BOT: False\n"
 masteri += f"Assistant: {BOT_USERNAME}\n\n"
 masterinfo = f"{masteri}"
