@@ -28,11 +28,12 @@ astrostats = f"{astro}"
 # FOR PING LITTLE SETUP 
 ASTRO = bot.me.first_name
 OWNER_ID = bot.me.id
+NUME = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 
 masteri = "HELLO BELOW IS ABOUT MY OWNER\n"
 masteri += f"USERNAME: {OWNER_USERNAME}\n"
 masteri += f"ID: {OWNER_ID}\n"
-masteri += f"NAME: [{ASTRO}](tg://user?id={OWNER_ID})\n"
+masteri += f"NAME: {NUME}\n"
 masteri += "IS BOT: False\n"
 masteri += f"Assistant: {BOT_USERNAME}\n\n"
 masterinfo = f"{masteri}"
