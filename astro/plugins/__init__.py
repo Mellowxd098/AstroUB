@@ -31,7 +31,7 @@ ASTRO = bot.me.first_name
 OWNER_ID = bot.me.id
 NAAME = str(NAME) if NAME else "Astro User✨"
 
-masteri = "HELLO BELOW IS ABOUT MY OWNER\n"
+masteri = "𝐁𝐄𝐋𝐎𝐖 𝐈𝐒 𝐀𝐁𝐎𝐔𝐓 𝐌𝐘 𝐌𝐀𝐒𝐓𝐄𝐑🥷\n\n"
 masteri += f"USERNAME: {OWNER_USERNAME}\n"
 masteri += f"ID: {OWNER_ID}\n"
 masteri += f"NAME: {NAAME}\n"
