@@ -2,7 +2,7 @@ import time
 from datetime import datetime
 from io import BytesIO
 import requests
-from astro.plugins import PYTHON
+from astro.plugins import PYTHON, OWNER_ID
 from astro import bot, vision, StartTime
 from astro import CMD_HELP
 from astro.config import Config 
@@ -50,7 +50,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
  
  
-MYUSER = str(NAME) if Config.NAME else "ASTRO User✨"
+MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})""
 
 @astro.on(admin_cmd(pattern="alive"))
 @astro.on(sudo_cmd(pattern="alive", allow_sudo=True))
