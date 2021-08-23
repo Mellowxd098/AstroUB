@@ -183,7 +183,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
               
                  buttons = [
                    [
-                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userbot"),
+                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_UserBot"),
                      Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
                    ],
                    [
