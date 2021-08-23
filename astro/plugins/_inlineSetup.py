@@ -198,7 +198,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                  file = ALIVE_PIC,
                  buttons = [
                    [
-                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
+                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_UserBot"),
                      Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
                     ],
                     [
