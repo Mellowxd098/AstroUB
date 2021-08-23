@@ -10,8 +10,9 @@ from telethon import Button, custom, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
 from astro import CMD_HELP, CMD_LIST, CUSTOM_PMPERMIT, bot
-
-from astro.plugins import astrostats, masterinfo
+from astro import vision
+from astro.plugins import astrostats, masterinfo 
+from astro.plugins import PYTHON, ASTRO, OWNER_ID
 from astro.config import Config
 
 NAME = Config.NAME
@@ -53,6 +54,7 @@ MESAG = (
     if CUSTOM_PMPERMIT
     else "This is Pro Security By ƛsτʀ๏ υsєяъ๏т To my Master...!"
 )
+MYUSER = 
 ALV_TXT = f"""
 **『• Welcome To ƛsτʀ๏ •』**\n   "
 **{ALIVE_TEXT}**\n\n     "
