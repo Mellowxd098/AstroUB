@@ -172,17 +172,17 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "alive":
             ALIVE = ALIVE_TEXT
             if ALIVE_PIC and ALIVE_PIC.endswith((".jpg", ".png")):
-            result = builder.photo(
-            ALIVE_PIC,
-            text = ALIVE,
+               result = builder.photo(
+               ALIVE_PIC,
+               text = ALIVE,
      
-            buttons = [
-                [
-                  Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
-                  Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
-                ],
-                [
-                  Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
+               buttons = [
+                 [
+                   Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
+                   Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
+                 ],
+                 [
+                   Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
                    ],
                 ],
               )
