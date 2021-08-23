@@ -126,7 +126,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
         elif event.query.user_id == bot.uid and query == "alive":
             ALIVE = ALV_TEXT
             result = builder.photo(
-            text = ALIVE_TEXT,
+            text = ALIVE,
             file = ALIVE_PIC,
             buttons = [
                 [
@@ -134,8 +134,9 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                   Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
                 ],
                 [
-                  Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")]
-                ]
+                  Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
+                   ],
+                ],
               )
         elif event.query.user_id == bot.uid and query.startswith("__knock"):
             ASTROBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
