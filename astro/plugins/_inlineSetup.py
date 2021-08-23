@@ -101,6 +101,7 @@ MESAG = (
 )
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 ALV_TXT = f"""
+     __Hey 👀__
 **『• Welcome To ƛsτʀ๏ •』**
 **{ALIVE_TEXT}**
 {emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}
@@ -171,7 +172,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                     ],
                 ],
             )
-        elif event.query.user_id == bot.uid and query == "alive":
+        elif event.query.user_id == bot.uid and query.startswith("__Hey"):
             ALIVE = ALV_TXT
             if ALIVE_PIC and ALIVE_PIC.endswith((".jpg", ".png")):
                result = builder.photo(
