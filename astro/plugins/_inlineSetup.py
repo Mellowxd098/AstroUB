@@ -10,11 +10,18 @@ from telethon import Button, custom, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
 from astro import CMD_HELP, CMD_LIST, CUSTOM_PMPERMIT, bot
-from astro import vision
+from astro import vision 
+from astro.plugins.alive import uptime
 from astro.plugins import astrostats, masterinfo 
 from astro.plugins import PYTHON, ASTRO, OWNER_ID
 from astro.config import Config
+if Config.SUDO_USERS:
 
+    sudo = "Enabled"
+
+else:
+
+    sudo = "Disabled"
 NAME = Config.NAME
 A_TEXT = Config.A_TEXT
 A_PIC = Config.A_PIC
@@ -54,7 +61,7 @@ MESAG = (
     if CUSTOM_PMPERMIT
     else "This is Pro Security By ƛsτʀ๏ υsєяъ๏т To my Master...!"
 )
-MYUSER = 
+MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 ALV_TXT = f"""
 **『• Welcome To ƛsτʀ๏ •』**\n   "
 **{ALIVE_TEXT}**\n\n     "
@@ -63,7 +70,7 @@ ALV_TXT = f"""
 {emoji}** Python Vision** ⊳≫  `{PYTHON}`\n"
 {emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`\n"
 {emoji}** SUDO USER** ⊳≫ `{sudo}`\n"
-{emoji}** мy мαsтєя** ⊳≫ [{MYUSER}](tg://user?id={myid})\n\n"
+{emoji}** мy мαsтєя** ⊳≫ {MYUSER}\n\n"
 {emoji}**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
 
 """
