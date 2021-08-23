@@ -11,7 +11,7 @@ from datetime import datetime
 from telethon import Button, custom, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
 
-from astro import CMD_HELP, CMD_LIST, CUSTOM_PMPERMIT, bot
+from astro import CMD_HELP, CMD_LIST, CUSTOM_PMPERMIT, bot, StartTime
 from astro import vision 
 from astro.plugins import astrostats, masterinfo 
 from astro.plugins import PYTHON, ASTRO, OWNER_ID
