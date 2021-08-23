@@ -170,7 +170,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                 ],
             )
         elif event.query.user_id == bot.uid and query == "alive":
-            ALIVE = ALIVE_TEXT
+            ALIVE = ALV_TXT
             if ALIVE_PIC and ALIVE_PIC.endswith((".jpg", ".png")):
                result = builder.photo(
                  ALIVE_PIC,
