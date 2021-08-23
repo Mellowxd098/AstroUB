@@ -9,7 +9,7 @@ from astro.config import Config
 
 # Configs # 
 NAME = Config.NAME
-A_PIC = Config.A_PIC if Config.A_PIC else "https://telegra.ph/file/5979e313d5d43fdf40ec7.jpg"
+A_PIC = Config.A_PIC if Config.A_PIC else "https://telegra.ph/file/bc41c5a01e076dfc15293.mp4"
 A_TEXT = Config.A_TEXT if Config.A_TEXT else " This is ƛsτʀ๏\n   Ready in your protection"
 emoji = "**❅**" 
 emoji2 = "༺"
