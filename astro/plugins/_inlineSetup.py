@@ -173,24 +173,25 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             ALIVE = ALIVE_TEXT
             if ALIVE_PIC and ALIVE_PIC.endswith((".jpg", ".png")):
                result = builder.photo(
-               ALIVE_PIC,
-               text = ALIVE,
-     
-               buttons = [
-                 [
-                   Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
-                   Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
-                 ],
-                 [
-                   Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
+                 ALIVE_PIC,
+                 text = ALIVE,
+              
+                 buttons = [
+                   [
+                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
+                     Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
+                   ],
+                   [
+                     Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
                    ],
                 ],
               )
             else:
               result = builder.document(
-              text = ALIVE,
-              title = "AstroUB",
-              buttons = [
+                 text = ALIVE,
+                 title = "AstroUB",
+                 file = ALIVE_PIC,
+                 buttons = [
                    [
                      Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
                      Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
