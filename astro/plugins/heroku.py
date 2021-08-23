@@ -232,4 +232,4 @@ def prettyjson(obj, indent=2, maxlinelength=80):
         maxlinelength=maxlinelength - indent,
         indent=indent,
     )
-    return indentitems(items, indent, level=0
+    return indentitems(items, indent, level=0)
