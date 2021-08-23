@@ -21,7 +21,8 @@ if Config.SUDO_USERS:
 
 else:
 
-    sudo = "Disabled"
+    sudo = "Disabled" 
+    
 NAME = Config.NAME
 A_TEXT = Config.A_TEXT
 A_PIC = Config.A_PIC
