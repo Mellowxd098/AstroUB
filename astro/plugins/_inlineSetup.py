@@ -186,14 +186,14 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                    ],
                 ],
               )
-            else ALIVE_PIC:
-                result = builder.document(
-                text = ALIVE,
-                title = "AstroUB",
-                buttons = [
-                    [
-                      Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
-                      Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
+            else:
+              result = builder.document(
+              text = ALIVE,
+              title = "AstroUB",
+              buttons = [
+                   [
+                     Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
+                     Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
                     ],
                     [
                       Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
