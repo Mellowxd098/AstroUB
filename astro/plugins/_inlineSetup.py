@@ -171,9 +171,11 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             )
         elif event.query.user_id == bot.uid and query == "alive":
             ALIVE = ALV_TEXT
+            if ALIVE_PIC and ALIVE_PIC.endswith((".jpg", ".png")):
             result = builder.photo(
+            ALIVE_PIC,
             text = ALIVE,
-            file = ALIVE_PIC,
+     
             buttons = [
                 [
                   Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
@@ -184,6 +186,25 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
                    ],
                 ],
               )
+            else ALIVE_PIC:
+                result = builder.document(
+                text = ALIVE,
+                title = "AstroUB",
+                buttons = [
+                    [
+                      Button.url("ƛsτʀ๏ ᴄʜᴀɴɴᴇʟ", "https://t.me/Astro_Userabot"),
+                      Button.url("ƛsτʀ๏ sᴜᴘᴘ๏ʀᴛ", "https://t.me/Astro_HelpChat")
+                    ],
+                    [
+                      Button.inline("༼•ᴀʙᴏᴜᴛ ᴍʏ  ᴍᴀsᴛᴇʀ•༽", data="master")
+
+                   ],
+
+                ],
+
+              )
+
+                
         elif event.query.user_id == bot.uid and query.startswith("__knock"):
             ASTROBT = USER_BOT_NO_WARN.format(DEFAULTUSER, myid, MESAG)
             result = builder.photo(
