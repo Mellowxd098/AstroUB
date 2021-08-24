@@ -100,8 +100,8 @@ MESAG = (
     else "This is Pro Security By ƛsτʀ๏ υsєяъ๏т To my Master...!"
 )
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
-ALV_TXT = f"""
-     
+
+ALV_TXT = f"""     
 
 **『• Welcome To ƛsτʀ๏ •』**
 
