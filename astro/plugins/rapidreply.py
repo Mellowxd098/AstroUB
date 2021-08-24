@@ -1,6 +1,6 @@
 import asyncio
 import random
-
+from astro import CMD_HELP
 from astro.helps import memes as catmemes
 
 que = {}
