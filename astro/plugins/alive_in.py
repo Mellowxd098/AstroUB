@@ -77,7 +77,7 @@ astro += f"༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.
 async def amireallyalive(alive):
     try:
         astro = await bot.inline_query(botname, "alive")
-        await astro[0].click(event.chat_id)
+        await astro[0].click(alive.chat_id)
         if alive.sender_id == bot.uid:
             await alive.delete()
     except (king, barsh):
