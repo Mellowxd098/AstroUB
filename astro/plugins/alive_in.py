@@ -72,8 +72,8 @@ astro += f"{emoji}** SUDO USER** ⊳≫ `{sudo}`\n"
 astro += f"{emoji}** мy мαsтєя** ⊳≫ {MYUSER}\n\n"
 astro += f"༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
 
-@astro.on(admin_cmd(pattern="alive"))
-@astro.on(sudo_cmd(pattern="alive", allow_sudo=True))
+@bot.on(admin_cmd(pattern="alive"))
+@bot.on(sudo_cmd(pattern="alive", allow_sudo=True))
 async def amireallyalive(alive):
     try:
         astro = await bot.inline_query(botname, "alive")
