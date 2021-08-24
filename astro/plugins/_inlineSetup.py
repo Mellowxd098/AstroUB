@@ -102,7 +102,7 @@ MESAG = (
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 ALV_TXT = f"""
      
-    __Hey 👀__\n
+
 **『• Welcome To ƛsτʀ๏ •』**
 
 **{ALIVE_TEXT}**
