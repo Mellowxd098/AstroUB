@@ -4,7 +4,8 @@ from io import BytesIO
 import requests
 from astro.plugins import PYTHON, OWNER_ID, ASTRO
 from astro import bot, vision, StartTime
-from astro import CMD_HELP
+from astro import CMD_HELP 
+from astro.utils import admin_cmd, sudo_cmd
 from astro.config import Config 
 from telethon.errors import ChatSendInlineForbiddenError as king
 from telethon.errors.rpcerrorlist import BotMethodInvalidError as barsh
