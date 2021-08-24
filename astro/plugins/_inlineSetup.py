@@ -115,7 +115,7 @@ ALV_TXT = f"""
 {emoji}** мy мαsтєя** ⊳≫ {MYUSER}
 
 
-༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
+༆**✨яєρ๏sıт๏яy✨** ⊳≫ [GITHUB Repository✨](https://github.com/AstroUB/AstroUB)"
 """
 
 DEFAULTUSER = str(NAME) if NAME else "ASTRO user✨"
