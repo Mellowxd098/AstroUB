@@ -22,13 +22,18 @@ START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
 
 
+if Config.PM_SECURITY == "off":
+    security = "DISABLED×"
+else:
+    security = "Enabled✓”
+
 if Config.SUDO_USERS:
 
-    sudo = "Enabled"
+    sudo = "Yes..Have Sudo Users"
 
 else:
 
-    sudo = "Disabled" 
+    sudo = "Nope..No Sudo Users" 
     
 NAME = Config.NAME
 A_TEXT = Config.A_TEXT
@@ -80,7 +85,7 @@ ALV_TXT = f"""
 {emoji2}**iɲƒ๏ σƒ ƛsτʀ๏**{emoji3}
 {emoji}** ƛsτʀ๏  Vision** ⊳≫ `{vision}`
 {emoji}** Python Vision** ⊳≫  `{PYTHON}`
-{emoji}** ƛsτʀ๏ uptime** ⊳≫ `{uptime}`
+{emoji}** ƛsτʀ๏ Security** ⊳≫ `{security}`
 {emoji}** SUDO USER** ⊳≫ `{sudo}`
 {emoji}** мy мαsтєя** ⊳≫ {MYUSER}
 
