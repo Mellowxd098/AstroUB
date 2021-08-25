@@ -456,7 +456,7 @@ if Config.BOT_USERNAME is not None and tgbot is not None:
             else:
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         else:
-            reply_pop_up_alert = "Please get your own Userbot, and don't use mine!"
+            reply_pop_up_alert = "Hey you.🙄 Create Your Own ƛsτʀ๏ υsєяъ๏т Don't touch mine😒"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
