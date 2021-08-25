@@ -80,17 +80,7 @@ astro += f"༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.
 @bot.on(admin_cmd(pattern="alive"))
 @bot.on(sudo_cmd(pattern="alive", allow_sudo=True))
 async def amireallyalive(alive):
-    start = datetime.now()
-
-    myid = bot.uid
-
-    # By @Alone_loverBoy
-
-    end = datetime.now()
-
-    (end - start).microseconds / 1000
-
-    uptime = get_readable_time((time.time() - StartTime))
+# ALONE #
     try:
         astro = await bot.inline_query(botname, "alive")
         await astro[0].click(alive.chat_id)
