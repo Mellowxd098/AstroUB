@@ -25,7 +25,7 @@ uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
 if Config.PMSECURITY == "off":
     security = "DISABLED×"
 else:
-    security = "Enabled✓”
+    security = "Enabled✓"
 
 if Config.SUDO_USERS:
 
