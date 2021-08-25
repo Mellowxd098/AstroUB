@@ -53,12 +53,6 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
  
-start = datetime.now()
-myid = bot.uid
-    # By @Alone_loverBoy
-end = datetime.now()
-(end - start).microseconds / 1000
-uptime = get_readable_time((time.time() - StartTime))
 
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 astro = f"**『• Welcome To ƛsτʀ๏ •』**\n\n"
@@ -75,6 +69,17 @@ astro += f"༆**✨Repository✨** ⊳≫ [GITHUB Repository✨](https://github.
 @bot.on(admin_cmd(pattern="alive"))
 @bot.on(sudo_cmd(pattern="alive", allow_sudo=True))
 async def amireallyalive(alive):
+    start = datetime.now()
+
+    myid = bot.uid
+
+    # By @Alone_loverBoy
+
+    end = datetime.now()
+
+    (end - start).microseconds / 1000
+
+    uptime = get_readable_time((time.time() - StartTime))
     try:
         astro = await bot.inline_query(botname, "alive")
         await astro[0].click(alive.chat_id)
