@@ -22,7 +22,7 @@ START_TIME = datetime.datetime.now()
 uptime = f"{str(datetime.datetime.now() - START_TIME).split('.')[0]}"
 
 
-if Config.PM_SECURITY == "off":
+if Config.PMSECURITY == "off":
     security = "DISABLED×"
 else:
     security = "Enabled✓”
