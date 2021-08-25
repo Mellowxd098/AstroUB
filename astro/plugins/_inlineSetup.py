@@ -6,7 +6,7 @@ import os
 import re
 from math import ceil
 import time
-from datetime import datetime
+import datetime
 
 from telethon import Button, custom, events, functions
 from telethon.tl.functions.users import GetFullUserRequest
