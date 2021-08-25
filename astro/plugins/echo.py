@@ -22,6 +22,6 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "echo": ".echo <mssg>\nUse - Echoes the message you send via your bot. You must add it to this chat first, ofc."
+        "echo": ".echo <mssg>\nUse - Echoes the message via your bot.ADD YOUR BOT TOO"
     }
 )
