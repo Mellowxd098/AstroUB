@@ -45,7 +45,7 @@ async def _(event):
 CMD_HELP.update(
     {
         "ascii": "`.ascii` reply to any image file:\
-      \nUse - Makes an image ascii style, try out your own.\
+      \nUse - try your self\
       "
     }
 )
