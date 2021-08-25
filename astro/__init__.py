@@ -18,7 +18,7 @@ else:
     bot = TelegramClient(session_name, Config.API_ID, Config.API_HASH)
 
 StartTime = time.time()
-vision = "0.0.1"
+vision = "0.0.2"
 
 CMD_LIST = {}
 CMD_HELP = {}
