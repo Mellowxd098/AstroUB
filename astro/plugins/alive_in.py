@@ -52,7 +52,18 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
- 
+
+start = datetime.now()
+
+myid = bot.uid
+
+    # By @Alone_loverBoy
+
+end = datetime.now()
+
+(end - start).microseconds / 1000
+
+uptime = get_readable_time((time.time() - StartTime))
 
 MYUSER = f"[{ASTRO}](tg://user?id={OWNER_ID})"
 astro = f"**『• Welcome To ƛsτʀ๏ •』**\n\n"
