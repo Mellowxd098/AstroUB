@@ -222,7 +222,7 @@ async def do_pm_permit_action(chat_id, event):
         DEFAULTUSER, myid, MESAG, PM_WARNS[chat_id] + 1, Config.MAX_SPAM
     )
     astro = await bot.inline_query(mybot, MSG)
-    r = await astro[0].click(event.chat_id, hide_via=True)
+    r = await astro[0].click(event.chat_id)
     PM_WARNS[chat_id] += 1
     if chat_id in PREV_REPLY_MESSAGE:
         await PREV_REPLY_MESSAGE[chat_id].delete()
