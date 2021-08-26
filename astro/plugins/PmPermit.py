@@ -209,17 +209,7 @@ async def on_new_private_message(event):
 
 
 
-    if user_id.bot==True:
-
-        # don't log bots
-
-        return
-
-    if user_id.verified == True:
-
-        # don't log verified accounts
-
-        return
+    
     if pmpermit_sql.is_approved(chat_ids):
             return
 
