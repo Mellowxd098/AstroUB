@@ -164,12 +164,9 @@ async def get_user(event):
             GetFullUserRequest(previous_message.sender_id)
         )
     else:
-        user = event.pattern_match.group(1)
-        if user.isnumeric():
-            user = int(user)
-        if not user:
-            self_user = await event.client.get_me()
-            user = self_user.id
+
+        self_user = await event.client.get_me()
+        user = self_user.id
         if event.message.entities:
             probable_user_mention_entity = event.message.entities[0]
             if isinstance(probable_user_mention_entity, MessageEntityMentionName):
