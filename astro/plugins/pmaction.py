@@ -248,7 +248,7 @@ astro = bot.inline_query(mybot, "__knock")
 r = astro[0].click(user_id)
 PM_WARNS[chat_id] += 1
 if chat_id in PREV_REPLY_MESSAGE:
-      await PREV_REPLY_MESSAGE[chat_id].delete()
+      PREV_REPLY_MESSAGE[chat_id].delete()
       PREV_REPLY_MESSAGE[chat_id] = r
 
 
