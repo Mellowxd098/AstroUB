@@ -220,8 +220,21 @@ async def do_pm_permit_action(chat_id, event):
     MSG = USER_BOT_NO_WARN.format(
         DEFAULTUSER, myid, MESAG, PM_WARNS[chat_id] + 1, Config.MAX_SPAM
     )
+    event.message.message
+
+    event.message.media
+
+    event.message.id
+
+    event.message.to_id
+
+    chat_id = event.chat_id
+
+    sender = await borg.get_entity(chat_id)
+
+   
     astro = await bot.inline_query(mybot, "__knock")
-    r = await astro[0].click(event.chat.id)
+    r = await astro[0].click(sender)
     PM_WARNS[chat_id] += 1
     if chat_id in PREV_REPLY_MESSAGE:
         await PREV_REPLY_MESSAGE[chat_id].delete()
