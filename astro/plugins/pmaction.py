@@ -216,7 +216,7 @@ async def do_pm_permit_action(chat_id, event):
         except BaseException:
             return
     # inline pmpermit menu
-async def get_user(event):
+async def get_user:
     if event.reply_to_msg_id and not event.pattern_match.group(1):
         previous_message = await event.get_reply_message()
         replied_user = await event.client(
@@ -240,8 +240,8 @@ async def get_user(event):
     return replied_user
     
     
-replied_user = get_user(event)
-user_id = replied_user.user.id
+
+user_id = get_user.user.id
 
 mybot = Config.BOT_USERNAME
 astro = bot.inline_query(mybot, "__knock")
