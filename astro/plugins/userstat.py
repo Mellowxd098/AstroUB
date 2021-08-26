@@ -3,7 +3,8 @@
 import html
 import os
 
-import spamwatch
+import spamwatch 
+from telethon.tl.types import MessageEntityMentionName
 from telethon.tl.functions.users import GetFullUserRequest
 
 swapi = os.environ.get("SPAMWATCH_API_KEY", None)
