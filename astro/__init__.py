@@ -19,7 +19,7 @@ else:
 
 StartTime = time.time()
 vision = "0.0.2"
-
+astro = bot
 CMD_LIST = {}
 CMD_HELP = {}
 INT_PLUG = ""
