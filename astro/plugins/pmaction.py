@@ -240,7 +240,7 @@ async def get_user(event):
     return replied_user
     
     
-replied_user = await get_user(event)
+replied_user = get_user(event)
 user_id = replied_user.user.id
 
 mybot = Config.BOT_USERNAME
