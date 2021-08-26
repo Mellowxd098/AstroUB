@@ -244,7 +244,7 @@ replied_user = get_user(event)
 user_id = replied_user.user.id
 
 mybot = Config.BOT_USERNAME
-astro = await bot.inline_query(mybot, "__knock")
+astro = bot.inline_query(mybot, "__knock")
 r = await astro[0].click(user_id)
 PM_WARNS[chat_id] += 1
 if chat_id in PREV_REPLY_MESSAGE:
