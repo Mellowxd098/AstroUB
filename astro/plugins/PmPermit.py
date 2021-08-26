@@ -210,7 +210,7 @@ async def on_new_private_message(event):
 
 
     
-    if pmpermit_sql.is_approved(chat_ids):
+    if pmpermit_sql.is_approved(chat_id):
             return
 
     if not pmpermit_sql.is_approved(chat_id):
