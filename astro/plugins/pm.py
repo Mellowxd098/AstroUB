@@ -180,7 +180,7 @@ async def on_new_private_message(event):
         # userbot's should not reply to other userbot's
         # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
         return
-    sender = await bot.get_entity(event.sender_id)
+    sender = await bot.get_entity(event.chat)
 
     if sender.id == bot.uid:
 
