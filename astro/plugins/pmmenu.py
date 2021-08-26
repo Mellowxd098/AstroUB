@@ -246,12 +246,16 @@ async def do_pm_permit_action(chat_id, event):
             )
             return
         except BaseException:
-            return
+            return 
+        
     # inline pmpermit menu
     mybot = Config.BOT_USERNAME
     MSG = USER_BOT_NO_WARN.format(
         DEFAULTUSER, myid, MESAG, PM_WARNS[chat_id] + 1, Config.MAX_SPAM
     )
+    replied_user = await get_user(event)
+
+    user_id = replied_user.user.id
     astro = await bot.inline_query(mybot, MSG)
     r = await astro[0].click(user_id.chat_id, hide_via=True)
     PM_WARNS[chat_id] += 1
