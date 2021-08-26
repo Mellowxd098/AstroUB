@@ -216,7 +216,7 @@ async def do_pm_permit_action(chat_id, event):
         except BaseException:
             return
     # inline pmpermit menu
-async def get_user:
+async def get_user(event):
     if event.reply_to_msg_id and not event.pattern_match.group(1):
         previous_message = await event.get_reply_message()
         replied_user = await event.client(
