@@ -221,7 +221,7 @@ async def do_pm_permit_action(chat_id, event):
     MSG = USER_BOT_NO_WARN.format(
         DEFAULTUSER, myid, MESAG, PM_WARNS[chat_id] + 1, Config.MAX_SPAM
     )
-    astro = await bot.inline_query(mybot, MSG)
+    astro = await bot.inline_query(mybot, "__knock")
     r = await astro[0].click(event.chat_id)
     PM_WARNS[chat_id] += 1
     if chat_id in PREV_REPLY_MESSAGE:
