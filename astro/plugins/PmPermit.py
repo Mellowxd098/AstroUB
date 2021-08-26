@@ -201,21 +201,21 @@ async def on_new_private_message(event):
         # https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots
         return
     replied_user = await get_user(event)
-    sender = replied_user.user.id
+    user_id = replied_user.user.id
 
-    if sender.id == bot.uid:
+   
 
         # don't log Saved Messages
 
-        return
 
-    if sender.bot==True:
+
+    if user_id.bot==True:
 
         # don't log bots
 
         return
 
-    if sender.verified == True:
+    if user_id.verified == True:
 
         # don't log verified accounts
 
