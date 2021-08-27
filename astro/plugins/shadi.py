@@ -1,40 +1,31 @@
-import asyncio
+# CREDITS TO LIGHT YAGAMI 
+
+import asyncio 
 
 from astro import CMD_HELP
-from astro.utils import admin_cmd
 
-
-@astro.on(admin_cmd(pattern=r"(.*)", outgoing=True))
-async def _(event):
-
+@astro.on(admin_cmd(pattern="(.*)"))
+async def _(eevent:
     if event.fwd_from:
-
-        return
-
+        return 
+    
     animation_interval = 2
-
     animation_ttl = range(0, 11)
-
+    
     input_str = event.pattern_match.group(1)
-
-    if input_str == "shadi":
-
-        await event.edit(input_str)
-
+    
+    if input_str == "breakup:
+      
+        await event.edit(shadi)
         animation_chars = [
-            "`HEHE U NAUGHTY BOY NEED GIRLFRIEND`",
-            "`OK BRO BHAI KE LIYE KUCH BHI`",
-            "`GO TO ASTRO SPAM BRUH THERE U WILL GET ADORABLE GIRL`"
-            "`BUT DONT MESS WITH THEM BRUH AND WITHOUT HER PERMISSION DONT DM HER `"
-            "`DONT ABUSE AND FIRST DEPLOY ASTRO USERBOT THEN ONLY GO TO THIS GROUP🙂`"
-            "`NOW TAKE THIS LINK AND ENJOY NOOB ; https://t.me/Astro_Spam .🙂",
-        ]
-
-        for i in animation_ttl:
-
-            await asyncio.sleep(animation_interval)
-
+            "`BRUH DONT CRY SHE DONT DESERVED U\nU DESERVED BETTER THAN shadi",
+            "\n`JUST LEARN SOME ROMANCE TIPS FROM OUR BIG BRO `",
+            "\n`CONTACT LOVERBOY SIR` - @LbjiBot",
+            "\n`HE WILL TEACH U HOW TO ROMANCE AND ALSO WILL HELP U OVERCOME`",
+            "\n`FORGET THAT NIBBI BRUH`"
+          ]
+          for i in animation_ttl:
             await event.edit(animation_chars[i % 11])
-
-
-CMD_HELP.update({"SHADI": ".SHADI\nUse - Animation Plugin."})
+            await asyncio.sleep(animation_interval)
+            
+CMD_HELP.update({"Breakup": ".breakup\nUse - Animation Plugin."})
