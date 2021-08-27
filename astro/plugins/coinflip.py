@@ -12,9 +12,10 @@ async def coin(ast):
       await ast.edit("🪙")
       await asyncio.sleep(1)
       await ast.edit("Ohhhhh......\nAnswer is")
-      await ast.sleep(1)
-      await event.edit(random.choice(STRING))
+      await asyncio.sleep(1)
+      await ast.edit(random.choice(STRING))
     
 CMD_HELP.update({"coin": ".flipcoin\nUse - Get Random Heads Or Tails"
   
 })
+# © Astro-UB
