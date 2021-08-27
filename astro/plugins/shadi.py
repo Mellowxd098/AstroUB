@@ -14,7 +14,7 @@ async def _(event):
     
     input_str = event.pattern_match.group(1)
     
-    if input_str == "breakup:
+    if input_str == "breakup":
       
         await event.edit(shadi)
         animation_chars = [
