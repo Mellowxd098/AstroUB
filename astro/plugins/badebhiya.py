@@ -26,8 +26,8 @@ async def _(event):
             "`JUST LEARN SOME ROMANCE TIPS FROM OUR BIG BRO `",
             "`CONTACT LOVERBOY SIR - @LbjiBot`",
             "`HE WILL TEACH U HOW TO ROMANCE AND ALSO WILL HELP U OVERCOME`",
-            "`FORGET THAT NIBBI BRUH`",
-          
+            "`FORGET THAT NIBBI BRUH`"
+            ]
             for i in animation_ttl:
 
                 await asyncio.sleep(animation_interval)
