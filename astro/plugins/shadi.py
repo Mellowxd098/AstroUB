@@ -25,7 +25,7 @@ async def _(event):
             "`HEHE U NAUGHTY BOY NEED GIRLFRIEND`",
             "`OK BRO BHAI KE LIYE KUCH BHI`",
             "`GO TO ASTRO SPAM BRUH THERE U WILL GET ADORABLE GIRLBUT DONT MESS WITH THEM BRUH `"
-            "`DONT ABUSE AND FIRST DEPLOY ASTRO USERBOT THEN ONLY GO TO THIS GROUP🙂\nNOW TAKE THIS LINK AND ENJOY NOOB ; https://t.me/Astro_Spam.🙂",
+            "`DONT ABUSE AND FIRST DEPLOY ASTRO USERBOT THEN ONLY GO TO THIS GROUP🙂\nNOW TAKE THIS LINK AND ENJOY NOOB ; https://t.me/Astro_Spam .🙂",
         ]
 
         for i in animation_ttl:
