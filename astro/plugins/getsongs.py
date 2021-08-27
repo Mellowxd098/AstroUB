@@ -21,7 +21,7 @@ async def _(event):
         'for f in *.opus; do      mv -- "$f" "${f%.opus}.mp3"; done', shell=True
     )
     l = glob.glob("*.mp3")
-    loa = l[0]
+    loa = l[1]
     await event.edit("`Yeah, I found the song..🎶`")
     await event.client.send_file(
         event.chat_id,
