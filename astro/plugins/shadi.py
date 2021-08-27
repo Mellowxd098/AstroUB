@@ -5,7 +5,7 @@ import asyncio
 from astro import CMD_HELP
 
 @astro.on(admin_cmd(pattern="(.*)"))
-async def _(eevent:
+async def _(event):
     if event.fwd_from:
         return 
     
