@@ -5,7 +5,7 @@ from datetime import datetime
 import requests
 
 from astro.utils import admin_cmd
-
+e = "You got error!"
 
 @astro.on(admin_cmd(pattern="currency (.*)"))
 async def _(event):
