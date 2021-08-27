@@ -3,7 +3,7 @@ import asyncio
 from astro.utils import admin_cmd
 
 
-@borg.on(admin_cmd(pattern="eye"))
+@borg.on(admin_cmd(pattern="randi"))
 async def _(event):
 
     if event.fwd_from:
