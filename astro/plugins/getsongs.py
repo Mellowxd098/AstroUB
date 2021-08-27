@@ -1,6 +1,6 @@
 import glob
 import subprocess
-import spotdl
+
 from astro.utils import admin_cmd
 
 
