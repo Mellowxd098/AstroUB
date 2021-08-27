@@ -21,6 +21,6 @@ async def _(event):
     await asyncio.sleep(2)
     await event.edit("CONTACT LOVERBOY SIR` - @Astro_Spam\n")
     await asyncio.sleep(1)
-    await e
+  
 
 CMD_HELP.update({"breakup": ".breakup\nUse - Animation Plugin."})
