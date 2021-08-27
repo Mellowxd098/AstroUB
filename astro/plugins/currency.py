@@ -44,8 +44,7 @@ async def _(event):
                     event,
                     "Welp, Hate to tell yout this but this Currency isn't supported **yet**.\n__Try__ `.currencies` __for a list of supported currencies.__",
                 )
-        except e:
-            await eor(event, str(e))
+       
     else:
         await eor(
             event,
