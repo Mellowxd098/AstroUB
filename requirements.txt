@@ -10,7 +10,8 @@ pyseoanalyzer
 glitch_this
 PyGithub
 pytesseract
-
+bs4==0.0.1 
+pybase64==1.0.2
 telethon
 wget
 numpy
