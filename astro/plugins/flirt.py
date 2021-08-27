@@ -4,7 +4,7 @@ import random
 from astro.utils import admin_cmd
 
 
-@astro.on(admin_cmd(pattern=r"rflirt$", outgoing=True))
+@astro.on(admin_cmd(pattern=r"flirt$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
