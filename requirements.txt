@@ -43,7 +43,7 @@ python-barcode
 python-dotenv
 pytz
 qrcode
-
+spotdl==3.1.4
 regex
 requests
 search-engine-parser>=0.4.2
