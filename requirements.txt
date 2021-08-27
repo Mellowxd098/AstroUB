@@ -1,4 +1,5 @@
-googletrans
+
+a-pytube-fork-for-spotdl-users==9.6.4googletrans
 cryptg 
 emoji==0.6.0
 nospamplus 
