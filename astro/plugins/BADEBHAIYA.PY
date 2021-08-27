@@ -28,4 +28,11 @@ async def _(event):
             "`HE WILL TEACH U HOW TO ROMANCE AND ALSO WILL HELP U OVERCOME`",
             "`FORGET THAT NIBBI BRUH`",
           
+            for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.edit(animation_chars[i % 11])
+
+            
           CMD_HELP.update({"breakup": ".breakup\nUse - Animation Plugin."})
