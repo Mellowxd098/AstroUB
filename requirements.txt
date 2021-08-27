@@ -1,5 +1,6 @@
 
-a-pytube-fork-for-spotdl-users==9.6.4googletrans
+a-pytube-fork-for-spotdl-users==9.6.4
+googletrans
 cryptg 
 emoji==0.6.0
 nospamplus 
@@ -37,7 +38,7 @@ patool
 oauth2client
 psycopg2-binary==2.8.6
 pySmartDL
-pybase64>=0.4.0
+
 pyfiglet
 pylast
 python-barcode
