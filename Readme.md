@@ -17,7 +17,7 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/AstroUB/AstroUB#copyright--license)
 [![Stars](https://img.shields.io/github/stars/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/stargazers)
 [![Python 3.6](https://img.shields.io/badge/Python-3.9.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![Forks](https://img.shields.io/github/forks/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/network/members)
+[![Forks](https://img.shields.io/github/forks/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/network/members)<br>
 [![Issues Open](https://img.shields.io/github/issues/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/issues)
 [![Issues Closed](https://img.shields.io/github/issues-closed/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/issues?q=is:closed)
 [![PR Open](https://img.shields.io/github/issues-pr/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/pulls)
