@@ -24,12 +24,12 @@ async def _(event):
     await event.edit("trying to download media file, to my local")
     try:
         start = datetime.now()
-        c_time = StartTime
+        
         downloaded_file_name = await borg.download_media(
             reply_message,
             Config.TMP_DOWNLOAD_DIRECTORY,
             progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                progress(d, t, event, c_time, "trying to download")
+                progress(d, t, event, "trying to download")
             ),
         )
     except Exception as e:  # pylint:disable=C0103,W0703
@@ -110,7 +110,7 @@ async def _(event):
                 voice_note=voice_note,
                 supports_streaming=supports_streaming,
                 progress_callback=lambda d, t: asyncio.get_event_loop().create_task(
-                    progress(d, t, event, c_time, "trying to upload")
+                    progress(d, t, event, "trying to upload")
                 ),
             )
             ms_two = (end_two - end).seconds
