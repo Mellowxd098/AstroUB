@@ -6,7 +6,7 @@ import asyncio
 import os
 import time
 from datetime import datetime
-
+from astro import StartTime
 from astro.utils import admin_cmd, progress
 
 
@@ -24,7 +24,7 @@ async def _(event):
     await event.edit("trying to download media file, to my local")
     try:
         start = datetime.now()
-        c_time = time.time()
+        c_time = StartTime
         downloaded_file_name = await borg.download_media(
             reply_message,
             Config.TMP_DOWNLOAD_DIRECTORY,
