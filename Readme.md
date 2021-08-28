@@ -12,6 +12,7 @@
 <br>
 <i><h3> 𝚂𝚃𝙰𝚃𝚄𝚂 𝙾𝙵 𝙱𝙾𝚃 </h3></i>
 <br>
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/AstroUB/AstroUB)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg?&style=flat-square)]( https://github.com/AstroUB/AstroUB#copyright--license)
 [![Stars](https://img.shields.io/github/stars/AstroUB/AstroUB?&style=flat-square)]( https://github.com/AstroUB/AstroUB/stargazers)
